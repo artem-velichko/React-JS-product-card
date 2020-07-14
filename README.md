@@ -1,3 +1,9 @@
+How to run this app?
+
+1. Download this repository.
+2. Modify the file as .env.local. You need to write the link to your Firebase real time database at this file.
+3. Launch the app using localhost:3000.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
