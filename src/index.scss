@@ -1,0 +1,90 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.alert-pos {
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  width: 700px;
+  margin-left: -300px;
+  z-index: 1000;
+}
+
+.discount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px;
+  background-color: #d91e1e;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+
+  > p {
+    margin: 0;
+  }
+}
+
+
+.price {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #d91e1e;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.new-price {
+  color: #16ba16;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.container-discount-end-date {
+  display: flex;
+}
+
+.discount-end-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight {
+  padding: 3px 5px;
+  background-color: #5999cc;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.date {
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  padding: 8px;
+  background-color: #5999cc;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+
+  > p {
+    margin: 0;
+    font-size: 14px;
+  }
+}
